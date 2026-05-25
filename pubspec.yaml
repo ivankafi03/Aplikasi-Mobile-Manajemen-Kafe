@@ -1,0 +1,79 @@
+name: kafe_baru
+description: "Aplikasi Mobile Untuk Monitoring dan Penjadwalan Shift Kerja Secara Realtime di Kafe Sri Rahajoe Jombang."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # HTTP & Logging
+  http: ^1.2.0
+  googleapis_auth: ^1.6.0
+  logger: ^2.0.2
+
+  # --- PERBAIKAN UTAMA (Versi Dikunci) ---
+  # Versi ini dipilih agar stabil dan tidak error 'PigeonUserDetails'
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  firebase_database: ^11.1.0
+  firebase_messaging: ^15.1.3
+
+  # Foto Profil & Storage
+  supabase_flutter: ^2.3.4
+  image_cropper: ^8.0.2
+
+  # Scanner & Geolocation
+  mobile_scanner: ^5.2.3
+  geolocator: ^13.0.1
+
+  # Chart
+  fl_chart: ^0.69.0
+
+  # Storage & Utilities
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  intl: ^0.19.0
+  uuid: ^4.5.1
+
+  # Maps & QR
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  qr_flutter: ^4.1.0
+
+  # Kalender, Image Picker, Animasi & Launchers
+  table_calendar: ^3.1.2
+  image_picker: ^1.1.2
+  lottie: ^3.1.3
+  cached_network_image: ^3.4.1
+  flutter_local_notifications: ^17.2.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+  # Pigeon bisa dihapus jika tidak dipakai manual,
+  # tapi dibiarkan ada juga tidak masalah.
+  pigeon: ^22.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon.png
+    - assets/animations/
+
+# Konfigurasi Icon
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "825797100274",
+    "firebase_url": "https://kafe-sri-rahajoe-default-rtdb.firebaseio.com",
+    "project_id": "kafe-sri-rahajoe",
+    "storage_bucket": "kafe-sri-rahajoe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825797100274:android:9ac2ca4fe1a483b008c66b",
+        "android_client_info": {
+          "package_name": "com.example.kafe_baru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvSqKN4bS5eefzJrw1y5cC17a4tSoi50U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825797100274:android:42e118158f036e3b08c66b",
+        "android_client_info": {
+          "package_name": "com.ivan.kafe_sri_rahajoe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvSqKN4bS5eefzJrw1y5cC17a4tSoi50U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
